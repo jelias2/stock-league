@@ -2,6 +2,11 @@
 
 Fantasy Football but for stock trading
 
+## **Add Firebase Authentication Credentials**
+
+1. After cloning the repo, Create `services/stock_league/app/firebase_credentials` path
+2. Add Service Account Credentials JSON file to file named `service_account_key.json` file under above mentioned path
+
 ## **Deploy**
 
 > Install [**Docker**](https://docs.docker.com/get-docker/)
