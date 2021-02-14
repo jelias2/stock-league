@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  flask:
+    build: ./services/stock_league
+    command: python /usr/src/app/manage.py run -h 0.0.0.0 
+    volumes:
+      - ./services/stock_league/:/usr/src/app/
+    ports:
+      - 5000:5000
+

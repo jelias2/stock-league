@@ -1,0 +1,11 @@
+# Python
+*.pyc
+__pycache__
+venv*
+.direnv
+
+# Ignore firebase credentials folder
+services/stock_league/app/firebase_credentials
+
+# Jupyter Notebook
+.ipynb_checkpoints

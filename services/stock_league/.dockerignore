@@ -1,0 +1,7 @@
+# Ignore Copying the Virtualenv directories
+venv
+.direnv
+
+# Ignore Python Cache and all that jazz
+*.pyc
+__pycache__
