@@ -1,0 +1,4 @@
+# Ignore Copying the Virtualenv directories
+venv
+.direnv
+
