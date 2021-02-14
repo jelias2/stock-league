@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+export FLASK_APP="stock_league.py"
+export FLASK_ENV="development"
+python /usr/src/app/manage.py run -h 0.0.0.0
